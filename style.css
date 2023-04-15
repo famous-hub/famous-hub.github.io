@@ -1,0 +1,509 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: red;
+color: greenyellow;
+position: fixed;
+z-index: 1;
+width: 100%;
+}
+.brand-title{
+font-size: 1.5rem;
+margin: .5rem;
+}
+.navbar-link ul{
+margin: 0;
+padding: 0;
+display: flex;
+}
+.navbar-link li a{
+text-decoration: none;
+color: black;
+padding: 1rem;
+display: block;
+}
+.navbar-link li{
+list-style: none;
+}
+.navbar-link li:hover{
+background-color: grey;
+}
+.toggle-button{
+position: absolute;
+top: .75rem;
+right: 1rem;
+display: none;
+flex-direction: column;
+justify-content: space-between;
+width: 30px;
+height: 21px;
+}
+.toggle-button .bar{
+height: 3px;
+width: 100%;
+background-color: blue;
+border-radius: 10px;
+}
+/* --------------------- */
+.nav-1{
+width: 1500px;
+position: relative;
+}
+.nav-1 img{
+width: 100%;
+height: 50px;
+}
+/* -------book------- */
+.book{
+display: flex;
+flex-wrap: wrap;
+padding-left: 10px;
+justify-content: center;
+background-color: aliceblue;
+}
+.book-1{
+max-width: 607px;
+width: 100%;
+padding:2px 5px;
+}
+.book-1 img{
+width:100%;
+height: 424px;
+
+}
+.top-1{
+    max-width: 377px;
+    width: 100%;
+    position: relative;
+    padding:2px 7px;
+    }
+    .top-1 img{
+    width: 100%;
+    height: 238px;
+    }
+    .map-1{
+      max-width: 357px;
+      width: 100%;
+      position: relative;
+      padding:2px 7px;
+      }
+      .map-1 img{
+      width: 100%;
+      height: 238px;
+      }
+    /* --------------html-1------------------- */
+    .html{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+    }
+    .html-1{
+    max-width: 800px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .html-1 img{
+    width: 100%;
+    height: 550px;
+    padding: 10px 0;
+    }
+    .html-1 h1{
+    padding: 0 13px;
+    
+    color: brown;
+    }
+    .html-2{
+    max-width:358px; 
+        }
+        .html-2 img{
+        width: 100%;
+        height: 440px;
+        padding: 2px 10px
+        }
+        .html-1 p{
+        font-size: 20px;
+        font-weight: lighter;
+        margin-left:10px ;
+        margin-right: 10px;
+        text-align: justify;
+        }
+        .html-4{
+         max-width: 800px;
+            
+            }
+            .html-4 img{
+            width: 100%;
+            height: 400px;
+            padding: 10px;
+            }
+            .html-4 p{
+              font-size: 20px;
+              font-weight: lighter;
+              margin-left:10px ;
+              margin-right: 10px;
+              text-align: justify;
+
+            }
+           .day{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+           }
+           .day-1{
+           max-width:400px;
+           }
+           .day-1 img{
+           width: 100%;
+           height: 250px;
+           padding: 10px;
+           }
+           .day-1 p{
+            font-size: 20px;
+            
+
+           font-weight: lighter;
+           margin-left:10px ;
+           margin-right: 10px;
+           text-align: justify;
+           }
+           .day-1 h2{
+            padding-left: 13px;
+            background-color: ghostwhite;
+            color: blue;
+            text-align: center;
+           }
+           .vic{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           }
+           .vic-1{
+           width: 380px;
+           margin:0 10px;
+           }
+           .vic-1 video{
+           width: 100%;
+           }
+           .vic-1 h2{
+           color: blueviolet;
+           text-align: center;
+
+           }
+           .html-2 h1{
+           margin: 15px;
+           text-align: center;
+           color: blue;
+           margin-top: 20px;
+           }
+           .vex{
+            margin: 13px;
+            text-align: center;
+            color: red;
+            font-size: 20px;
+            font-weight: lighter;
+           }
+           .vox{
+            text-align: center;
+            color: aqua;
+            background-color: black;
+            margin-left:10px ;
+            margin-right: 10px;
+            justify-content: center;
+           }
+           .foot-1{
+           text-align: center;
+           background-color: black;
+           color: aliceblue;
+           }
+         /* -------------book-html-1------------------- */
+       
+        .mom{
+        position: absolute;
+        bottom: 15px;
+        color: aliceblue;
+        padding-left:20px ;
+        padding-right: 20px;
+        line-height: 20px;
+        font-size: 20px;
+        font-weight: lighter;
+        }
+        /* -------max-------------- */
+        .max{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+        .max-1{
+        width: 323px;
+        margin-left: 10px;
+        margin-top: 40px;
+        }
+        .max-1 img{
+        width: 100%;
+        height: 200px;
+        }
+           
+       .max-1 h2{
+        text-align: center;
+        color: aliceblue;
+        background-color: blue;
+        }
+        .max-1 p{
+         font-size: 19px;
+         font-weight: lighter;
+         background-color: black;
+         padding-left: 13px;
+         
+        }
+        .max-1 h3{
+        font-size: 21px;
+        font-weight: bold;
+        background-color: black;
+        padding-left:13px;
+        }
+        .push-1 h2{
+           text-align: center;
+           color: aliceblue;
+           background-color: blueviolet;
+           }
+           .aside-aside h2{
+            text-align: center;
+            color: aliceblue;
+            background-color: greenyellow;
+            margin-top: 25px;
+            margin-left:10px ;
+            margin-right: 10px;
+            }
+          .push{
+          display: flex;
+          background-color: aliceblue;
+          flex-wrap: wrap;
+          justify-content: center;
+          }  
+          .push-1{
+          max-width: 439px;
+          width: 100%;
+          margin:0 15px;
+          position: relative;
+          margin-top: 35px;
+          }
+          .push-1 img{
+          width: 100%;
+          height: 340px;
+          }
+         .push-2   {
+         display: flex;
+          }
+          .push-2 img{
+          width: 100px;
+          height: 68px;
+          margin: 10px;
+          }
+          .aside-aside{
+         width: 400px;
+         background-color: aliceblue;
+          }
+          .cane{
+         position: absolute;
+         bottom: 15px;
+         padding-left: 23px;
+         padding-right: 20px;
+         color: aliceblue;
+         font-size: 19px;
+         font-weight: lighter;
+         line-height: 25px;
+         
+          }
+          .spy{
+          text-align: center;
+          color: red;
+          margin-right: 30px;
+          }
+          .wow{
+          text-align: center;
+          color: blue;
+          }
+          .wax-5 p{
+          font-size: 18px;
+          font-weight: lighter;
+          }
+          .wax-wax p{
+          font-size: 18px;
+          font-weight: lighter;
+          }
+          /* -------all h1 h2 h3 h4------------- */
+          .book-1 h1{
+          background-color: blue
+           /* -------all h1 h2 h3 h4------------- */
+          }
+          .aside-aside p{
+          top: 30px;
+          margin-top: 10px;
+          }
+          .spm{
+          color: blue;
+          text-decoration: underline;
+          }
+          /* ---------a link---------------------- */
+          a {
+          text-decoration: none;
+          color: aliceblue;
+          }
+          .a{
+          color: aliceblue;
+          }
+          /* ----------a link----------------------- */
+          footer{
+          text-align: center;
+          background-color: black;
+          color: aliceblue;
+          height: 20px;
+          }
+          
+@media (max-width:400px) {
+ .toggle-button{
+display: flex;
+ }
+.navbar-link{
+display: none;
+width: 100%;
+}
+.navbar{
+flex-direction: column;
+align-items: flex-start;
+}
+.navbar-link ul{
+width: 100%;
+flex-direction: column;
+}
+.navbar-link li {
+text-align: center;
+}
+.navbar-link li a{
+padding: 20px;
+}
+.navbar-link.active{
+display: flex;
+}
+.book-1{
+width: 308px
+}
+.book-1 img{
+width: 100%;
+height: 250px;
+margin-right:10px ;
+margin-right: 10px;
+}
+/* ------all h1 to h5------------ */
+.top-1{
+width: 308px;
+}
+.top-1 img{
+    width: 100%;
+    height: 250px;
+    margin-right:10px ;
+    margin-right: 10px;
+}
+.map-1{
+  width: 308px;
+  }
+  .map-1 img{
+      width: 100%;
+      height: 250px;
+      margin-right:10px ;
+      margin-right: 10px;
+  }
+  .max-1{
+    width: 295px;
+    margin-top: 3px;
+    }
+    .max-1 img{
+        width: 100%;
+        height: 250px;
+        margin-right:10px ;
+        margin-right: 10px;
+        
+    }
+    .push-1{
+      width: 310px;
+      margin-top: 4px;
+      padding-left: 15px;
+      }
+      .push-1 img{
+          width: 100%;
+          height: 250px; 
+          margin: 2px; 
+      }
+      .push-1 h2{
+        height: 30px;
+        margin-bottom: 10px;  
+    } 
+    
+  .aside-aside{
+  max-width: 310px;
+  margin-bottom: 20px;
+  padding-left:15px ;
+  }
+  .aside-aside h2{
+  margin-bottom: 5px;
+  height: 30px;
+  width: 200px;
+  }  
+  /* -------------side section------------------- */
+  .html-1{
+  max-width: 300px;
+  width: 100%;
+  padding-left:7px ;
+  padding-right: 7px;
+  }
+  .html-1 img{
+  width: 100%;
+  height: 200px;
+  }
+  .html-4{
+    max-width: 300px;
+    width: 100%;
+    }
+    .html-4 img{
+    width: 100%;
+    height: 200px;
+    }
+    .html-2{
+      max-width: 300px;
+      width: 100%;
+      margin-bottom: 3px;
+      }
+      .html-2 img{
+      width: 100%;
+      height: 200px;
+      } 
+      .day-1{
+        max-width: 300px;
+        width: 100%;
+        }
+        .day-1 img{
+        width: 100%;
+        height: 200px;
+        }
+        .vic-1{
+          max-width: 300px;
+          width: 100%;
+          }
+          .vic-1 img{
+          width: 100%;
+          height: 200px;
+          }
+} 
+
+
+ 
+            
+
